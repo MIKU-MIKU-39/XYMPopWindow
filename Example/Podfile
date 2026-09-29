@@ -1,0 +1,13 @@
+# Xuyiming: Integrate the local component exactly as a consuming application does.
+source 'https://cdn.cocoapods.org/'
+platform :ios, '17.0'
+project 'XYMPopWindowExample.xcodeproj'
+
+target 'XYMPopWindowExample' do
+  pod 'XYMPopWindow', :path => '..'
+
+  target 'XYMPopWindowTests' do
+    inherit! :search_paths
+  end
+end
+

@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07AD90DC3E46137E99ABD63D /* libPods-XYMPopWindowTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E097CFA984CB0BC85AB7BD /* libPods-XYMPopWindowTests.a */; };
+		3E9FBB38E8079A28F20FC611 /* XYMSceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFB241DC88E1165BE49C9A5 /* XYMSceneDelegate.m */; };
+		40CD045502D4630E8360F026 /* libPods-XYMPopWindowExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BE07B75CD94AE60BA49DB7 /* libPods-XYMPopWindowExample.a */; };
+		464A0AC65287499967DD2721 /* XYMFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31FC3DF71A621B483EFA787 /* XYMFeatureViewController.m */; };
+		64953FB7837F448D67CCF19B /* XYMDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A256DC03839FB0A0CBEC0F35 /* XYMDemoViewController.m */; };
+		7440C326087A9F3A4C4760B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232882827F05F705C1A44881 /* Foundation.framework */; };
+		82E897ADD1CBB897FB7626CB /* XYMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D882BBC9835049A56E171 /* XYMAppDelegate.m */; };
+		83484B0099268D3DFCAFA160 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F6132731B6E5EE5022B4F6 /* UIKit.framework */; };
+		9493283B1EDE86A7B1ACE9B7 /* XYMBasicPopWindowViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F88827B7DC73489E6024C6 /* XYMBasicPopWindowViewTests.m */; };
+		9D1D91D080E70A8FB5260A72 /* XYMDemoContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = B70443AB5D074360A0076494 /* XYMDemoContent.xib */; };
+		C0BBA6A5D2578A76C6488A75 /* XYMDemoDetail.html in Resources */ = {isa = PBXBuildFile; fileRef = 219391E7AA1C950ACC7719A5 /* XYMDemoDetail.html */; };
+		D3D20AB0C9E6ABA3E8A1DB39 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D703FEC6CAE9F11FDF09565E /* WebKit.framework */; };
+		E80B4A79E9FB9351F9763F1C /* XYMDemoIndex.html in Resources */ = {isa = PBXBuildFile; fileRef = 008866075EAFD022C70DE1E1 /* XYMDemoIndex.html */; };
+		EB88EE50B5CF9E942B907DD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF0E6D2760959861777E879 /* main.m */; };
+		F0C30CCC224758052D533113 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232882827F05F705C1A44881 /* Foundation.framework */; };
+		F1EFC363380CDD823E3B4C86 /* XYMDemoExamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5900CD30D9283A70E4CFCB /* XYMDemoExamplesTests.m */; };
+		FCBCD701572C8F76F4EABECE /* XYMDemoContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C239F1780F958EBA4467D6 /* XYMDemoContentView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E860FB3E80C7031D8DB1F246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1456BBF3F498E721D789397C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BBE44E3D26D4BBFCC59B902;
+			remoteInfo = XYMPopWindowExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008866075EAFD022C70DE1E1 /* XYMDemoIndex.html */ = {isa = PBXFileReference; includeInIndex = 1; path = XYMDemoIndex.html; sourceTree = "<group>"; };
+		0E5900CD30D9283A70E4CFCB /* XYMDemoExamplesTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYMDemoExamplesTests.m; sourceTree = "<group>"; };
+		18F88827B7DC73489E6024C6 /* XYMBasicPopWindowViewTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYMBasicPopWindowViewTests.m; sourceTree = "<group>"; };
+		1C3D882BBC9835049A56E171 /* XYMAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYMAppDelegate.m; sourceTree = "<group>"; };
+		219391E7AA1C950ACC7719A5 /* XYMDemoDetail.html */ = {isa = PBXFileReference; includeInIndex = 1; path = XYMDemoDetail.html; sourceTree = "<group>"; };
+		232882827F05F705C1A44881 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		25E9C77750AEDDEC86BFEB83 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28BE07B75CD94AE60BA49DB7 /* libPods-XYMPopWindowExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYMPopWindowExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9F5A65BC58B3008975D9F2 /* Pods-XYMPopWindowExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYMPopWindowExample.debug.xcconfig"; path = "Target Support Files/Pods-XYMPopWindowExample/Pods-XYMPopWindowExample.debug.xcconfig"; sourceTree = "<group>"; };
+		2D92723B055D4BE7802095A9 /* Pods-XYMPopWindowExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYMPopWindowExample.release.xcconfig"; path = "Target Support Files/Pods-XYMPopWindowExample/Pods-XYMPopWindowExample.release.xcconfig"; sourceTree = "<group>"; };
+		36C239F1780F958EBA4467D6 /* XYMDemoContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYMDemoContentView.m; sourceTree = "<group>"; };
+		5882D561420B27B8BCFB0097 /* Pods-XYMPopWindowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYMPopWindowTests.release.xcconfig"; path = "Target Support Files/Pods-XYMPopWindowTests/Pods-XYMPopWindowTests.release.xcconfig"; sourceTree = "<group>"; };
+		5D8E33C555B4428BDD6C4BC1 /* XYMPopWindowExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYMPopWindowExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E097CFA984CB0BC85AB7BD /* libPods-XYMPopWindowTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYMPopWindowTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFB241DC88E1165BE49C9A5 /* XYMSceneDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYMSceneDelegate.m; sourceTree = "<group>"; };
+		829325858B8A0995E6CA4DC7 /* XYMDemoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYMDemoViewController.h; sourceTree = "<group>"; };
+		8A542AB88A2836D474BBE71A /* XYMAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYMAppDelegate.h; sourceTree = "<group>"; };
+		92384435E7DA43EB8988E536 /* XYMSceneDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYMSceneDelegate.h; sourceTree = "<group>"; };
+		9AF0E6D2760959861777E879 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E0DF2280BC4971C2FBEE4DA /* XYMFeatureViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYMFeatureViewController.h; sourceTree = "<group>"; };
+		A256DC03839FB0A0CBEC0F35 /* XYMDemoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYMDemoViewController.m; sourceTree = "<group>"; };
+		AACAD981E0A7DC245A75E087 /* XYMDemoContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XYMDemoContentView.h; sourceTree = "<group>"; };
+		B70443AB5D074360A0076494 /* XYMDemoContent.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = XYMDemoContent.xib; sourceTree = "<group>"; };
+		C9F6132731B6E5EE5022B4F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D703FEC6CAE9F11FDF09565E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		DC66B45A8405693A4D46C625 /* Pods-XYMPopWindowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYMPopWindowTests.debug.xcconfig"; path = "Target Support Files/Pods-XYMPopWindowTests/Pods-XYMPopWindowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1F5BBF606A9D597703A8583 /* XYMPopWindowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYMPopWindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31FC3DF71A621B483EFA787 /* XYMFeatureViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XYMFeatureViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0454653513057514ABEECB7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C30CCC224758052D533113 /* Foundation.framework in Frameworks */,
+				07AD90DC3E46137E99ABD63D /* libPods-XYMPopWindowTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B98D3763C52F8452C0C4BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7440C326087A9F3A4C4760B4 /* Foundation.framework in Frameworks */,
+				83484B0099268D3DFCAFA160 /* UIKit.framework in Frameworks */,
+				D3D20AB0C9E6ABA3E8A1DB39 /* WebKit.framework in Frameworks */,
+				40CD045502D4630E8360F026 /* libPods-XYMPopWindowExample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		130E7A18F977FF7BFFA2E0B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7901ADFEB600691A9CC4EBC /* iOS */,
+				28BE07B75CD94AE60BA49DB7 /* libPods-XYMPopWindowExample.a */,
+				64E097CFA984CB0BC85AB7BD /* libPods-XYMPopWindowTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		407F43968CCF94305A47558C /* XYMPopWindowExample */ = {
+			isa = PBXGroup;
+			children = (
+				25E9C77750AEDDEC86BFEB83 /* Info.plist */,
+				8A542AB88A2836D474BBE71A /* XYMAppDelegate.h */,
+				1C3D882BBC9835049A56E171 /* XYMAppDelegate.m */,
+				829325858B8A0995E6CA4DC7 /* XYMDemoViewController.h */,
+				A256DC03839FB0A0CBEC0F35 /* XYMDemoViewController.m */,
+				92384435E7DA43EB8988E536 /* XYMSceneDelegate.h */,
+				6FFB241DC88E1165BE49C9A5 /* XYMSceneDelegate.m */,
+				9AF0E6D2760959861777E879 /* main.m */,
+				9E0DF2280BC4971C2FBEE4DA /* XYMFeatureViewController.h */,
+				F31FC3DF71A621B483EFA787 /* XYMFeatureViewController.m */,
+				B70443AB5D074360A0076494 /* XYMDemoContent.xib */,
+				AACAD981E0A7DC245A75E087 /* XYMDemoContentView.h */,
+				36C239F1780F958EBA4467D6 /* XYMDemoContentView.m */,
+				219391E7AA1C950ACC7719A5 /* XYMDemoDetail.html */,
+				008866075EAFD022C70DE1E1 /* XYMDemoIndex.html */,
+			);
+			path = XYMPopWindowExample;
+			sourceTree = "<group>";
+		};
+		9848BEC5BFE3FD4F060079F5 = {
+			isa = PBXGroup;
+			children = (
+				ECD68B731ADF2DEE5AC50B74 /* Products */,
+				130E7A18F977FF7BFFA2E0B6 /* Frameworks */,
+				407F43968CCF94305A47558C /* XYMPopWindowExample */,
+				C59AEC8F9DF802623BE409F6 /* Tests */,
+				D03C202F4807889B235B24A5 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A7901ADFEB600691A9CC4EBC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				232882827F05F705C1A44881 /* Foundation.framework */,
+				C9F6132731B6E5EE5022B4F6 /* UIKit.framework */,
+				D703FEC6CAE9F11FDF09565E /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C59AEC8F9DF802623BE409F6 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18F88827B7DC73489E6024C6 /* XYMBasicPopWindowViewTests.m */,
+				0E5900CD30D9283A70E4CFCB /* XYMDemoExamplesTests.m */,
+			);
+			name = Tests;
+			path = ../Tests;
+			sourceTree = "<group>";
+		};
+		D03C202F4807889B235B24A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D92723B055D4BE7802095A9 /* Pods-XYMPopWindowExample.release.xcconfig */,
+				2B9F5A65BC58B3008975D9F2 /* Pods-XYMPopWindowExample.debug.xcconfig */,
+				5882D561420B27B8BCFB0097 /* Pods-XYMPopWindowTests.release.xcconfig */,
+				DC66B45A8405693A4D46C625 /* Pods-XYMPopWindowTests.debug.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ECD68B731ADF2DEE5AC50B74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D8E33C555B4428BDD6C4BC1 /* XYMPopWindowExample.app */,
+				E1F5BBF606A9D597703A8583 /* XYMPopWindowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BBE44E3D26D4BBFCC59B902 /* XYMPopWindowExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3DB49A3353DA2F65146C7F7 /* Build configuration list for PBXNativeTarget "XYMPopWindowExample" */;
+			buildPhases = (
+				51FCF9473B36C5BAA32F3521 /* [CP] Check Pods Manifest.lock */,
+				0433693281166508F2EC0273 /* Sources */,
+				62B98D3763C52F8452C0C4BE /* Frameworks */,
+				4CA15DCE91FF9B57E238771B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYMPopWindowExample;
+			productName = XYMPopWindowExample;
+			productReference = 5D8E33C555B4428BDD6C4BC1 /* XYMPopWindowExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C037AFF17F0645A7C74E1618 /* XYMPopWindowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F5E2065FFE9C10A3474D12A /* Build configuration list for PBXNativeTarget "XYMPopWindowTests" */;
+			buildPhases = (
+				628F3896A244204DEDAAC208 /* [CP] Check Pods Manifest.lock */,
+				CA0122EC97C24375D18CD3F0 /* Sources */,
+				0454653513057514ABEECB7D /* Frameworks */,
+				6DBA9015E14ACA7E2B0D0C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B405852BA3104DF623F6090B /* PBXTargetDependency */,
+			);
+			name = XYMPopWindowTests;
+			productName = XYMPopWindowTests;
+			productReference = E1F5BBF606A9D597703A8583 /* XYMPopWindowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1456BBF3F498E721D789397C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					8BBE44E3D26D4BBFCC59B902 = {
+						DevelopmentTeam = CXXVZ66WY3;
+						ProvisioningStyle = Automatic;
+					};
+					C037AFF17F0645A7C74E1618 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 16CFA7CB441A832A4AA2D7A3 /* Build configuration list for PBXProject "XYMPopWindowExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9848BEC5BFE3FD4F060079F5;
+			productRefGroup = ECD68B731ADF2DEE5AC50B74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BBE44E3D26D4BBFCC59B902 /* XYMPopWindowExample */,
+				C037AFF17F0645A7C74E1618 /* XYMPopWindowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CA15DCE91FF9B57E238771B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1D91D080E70A8FB5260A72 /* XYMDemoContent.xib in Resources */,
+				C0BBA6A5D2578A76C6488A75 /* XYMDemoDetail.html in Resources */,
+				E80B4A79E9FB9351F9763F1C /* XYMDemoIndex.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBA9015E14ACA7E2B0D0C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51FCF9473B36C5BAA32F3521 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XYMPopWindowExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		628F3896A244204DEDAAC208 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XYMPopWindowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0433693281166508F2EC0273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E897ADD1CBB897FB7626CB /* XYMAppDelegate.m in Sources */,
+				64953FB7837F448D67CCF19B /* XYMDemoViewController.m in Sources */,
+				3E9FBB38E8079A28F20FC611 /* XYMSceneDelegate.m in Sources */,
+				EB88EE50B5CF9E942B907DD4 /* main.m in Sources */,
+				464A0AC65287499967DD2721 /* XYMFeatureViewController.m in Sources */,
+				FCBCD701572C8F76F4EABECE /* XYMDemoContentView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0122EC97C24375D18CD3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9493283B1EDE86A7B1ACE9B7 /* XYMBasicPopWindowViewTests.m in Sources */,
+				F1EFC363380CDD823E3B4C86 /* XYMDemoExamplesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B405852BA3104DF623F6090B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XYMPopWindowExample;
+			target = 8BBE44E3D26D4BBFCC59B902 /* XYMPopWindowExample */;
+			targetProxy = E860FB3E80C7031D8DB1F246 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		132201DB90011678059DD08B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC66B45A8405693A4D46C625 /* Pods-XYMPopWindowTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyiming.XYMPopWindowTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYMPopWindowExample.app/XYMPopWindowExample";
+			};
+			name = Debug;
+		};
+		179D669AD2E3A5A97097A656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		22E1DBABDB7A48D78937EF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B9F5A65BC58B3008975D9F2 /* Pods-XYMPopWindowExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXXVZ66WY3;
+				INFOPLIST_FILE = XYMPopWindowExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyiming.XYMPopWindowExample;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		427C469776CA3E9B33C6A445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5882D561420B27B8BCFB0097 /* Pods-XYMPopWindowTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyiming.XYMPopWindowTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYMPopWindowExample.app/XYMPopWindowExample";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61D0C94CFEF9D75D8C40DA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D92723B055D4BE7802095A9 /* Pods-XYMPopWindowExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CXXVZ66WY3;
+				INFOPLIST_FILE = XYMPopWindowExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyiming.XYMPopWindowExample;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D288B2EEF36AA9599DC5059B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F5E2065FFE9C10A3474D12A /* Build configuration list for PBXNativeTarget "XYMPopWindowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427C469776CA3E9B33C6A445 /* Release */,
+				132201DB90011678059DD08B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16CFA7CB441A832A4AA2D7A3 /* Build configuration list for PBXProject "XYMPopWindowExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179D669AD2E3A5A97097A656 /* Debug */,
+				D288B2EEF36AA9599DC5059B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3DB49A3353DA2F65146C7F7 /* Build configuration list for PBXNativeTarget "XYMPopWindowExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D0C94CFEF9D75D8C40DA9E /* Release */,
+				22E1DBABDB7A48D78937EF83 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1456BBF3F498E721D789397C /* Project object */;
+}

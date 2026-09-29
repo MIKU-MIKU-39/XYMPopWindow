@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - XYMPopWindow (0.1.0):
+    - Masonry (~> 1.1)
+
+DEPENDENCIES:
+  - XYMPopWindow (from `..`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  XYMPopWindow:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  XYMPopWindow: ca95bc417c504f318214725fb9e3d3a9eca2fc45
+
+PODFILE CHECKSUM: 63aaecc1e087eaeec4e04954876eed79dc3924b5
+
+COCOAPODS: 1.15.2

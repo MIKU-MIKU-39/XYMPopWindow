@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by Xuyiming: Real nib with its own height constraint. -->
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23501" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies><plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23501"/><capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/></dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="owner" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="first" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" tag="7301" id="content">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="230"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="真实 XIB 内容" translatesAutoresizingMaskIntoConstraints="NO" id="title">
+                    <rect key="frame" x="16" y="32" width="244" height="24"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="这份内容由 .xib 加载。自身高度约束随预览区自适应，弹窗通过内容约束推导高度，无需设置 popView_height。" numberOfLines="0" translatesAutoresizingMaskIntoConstraints="NO" id="body">
+                    <rect key="frame" x="16" y="64" width="318" height="154"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.9" green="0.94" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="height" constant="230" identifier="demo.contentHeight" id="height"/>
+                <constraint firstItem="title" firstAttribute="top" secondItem="content" secondAttribute="top" constant="32" id="t1"/>
+                <constraint firstItem="title" firstAttribute="leading" secondItem="content" secondAttribute="leading" constant="16" id="t2"/>
+                <constraint firstAttribute="trailing" secondItem="title" secondAttribute="trailing" constant="90" id="t3"/>
+                <constraint firstItem="title" firstAttribute="height" constant="24" id="t4"/>
+                <constraint firstItem="body" firstAttribute="top" secondItem="title" secondAttribute="bottom" constant="8" id="b1"/>
+                <constraint firstItem="body" firstAttribute="leading" secondItem="content" secondAttribute="leading" constant="16" id="b2"/>
+                <constraint firstAttribute="trailing" secondItem="body" secondAttribute="trailing" constant="16" id="b3"/>
+                <constraint firstAttribute="bottom" secondItem="body" secondAttribute="bottom" constant="12" id="b4"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>
