@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/MIKU-MIKU-39/XYMPopWindow.git', :tag => s.version.to_s }
   s.author = 'Xuyiming'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '15.1'
   s.requires_arc = true
   s.source_files = 'Sources/**/*.{h,m}'
   s.public_header_files = 'Sources/*.h'
