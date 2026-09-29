@@ -2,7 +2,7 @@
 
 作者：Xuyiming
 
-Objective-C 底部弹窗组件，提供基础容器、嵌套 Push / Pop、下拉关闭、滚动联动和 WebKit 网页弹窗。依赖 UIKit、WebKit、Masonry，不依赖 TripVue 的 PCH、宏、分类或图片资源。
+Objective-C 底部弹窗组件，提供基础容器、嵌套 Push / Pop、下拉关闭、滚动联动和 WebKit 网页弹窗。依赖 UIKit、WebKit、Masonry
 
 ## 项目结构
 
