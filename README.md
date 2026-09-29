@@ -37,6 +37,63 @@ XYMPopWindow/
 
 组件声明最低 iOS 13.0，启用 ARC；示例与测试工程最低 iOS 17.0，以适配当前 XCTest。示例的最低版本不改变组件自身的最低版本。Masonry 依赖为 `~> 1.1`。
 
+## 通过 CocoaPods 远端接入
+
+### 使用 main 分支（当前可用）
+
+组件已上传到 [GitHub](https://github.com/MIKU-MIKU-39/XYMPopWindow)，可以直接通过 Git 地址接入，无需先将本组件发布到 CocoaPods 公共 Specs 索引，也无需把源码下载到业务工程目录。
+
+在业务工程的 `Podfile` 中添加以下配置，`YourApp` 替换为实际 target 名称。已有 Podfile 只需在对应 target 内加入 `pod` 声明，保留原有 source、平台版本及其他配置；项目最低 iOS 版本需不低于 13.0。
+
+```ruby
+source 'https://cdn.cocoapods.org/'
+platform :ios, '13.0'
+
+target 'YourApp' do
+  pod 'XYMPopWindow',
+      :git => 'https://github.com/MIKU-MIKU-39/XYMPopWindow.git',
+      :branch => 'main'
+end
+```
+
+在业务工程的 Podfile 所在目录执行：
+
+```sh
+pod install
+```
+
+使用 Bundler 的工程执行 `bundle exec pod install`。安装后打开业务工程的 `.xcworkspace`，在 Objective-C 文件中导入：
+
+```objc
+#import <XYMPopWindow/XYMPopWindow.h>
+```
+
+Masonry 会作为依赖自动安装，不必为了本组件额外开启 `use_frameworks!`。已有本地 `:path` 配置时应替换为上面的远端声明，不要在同一 target 中同时声明两种来源。仓库中的 `Example/Podfile` 仍使用 `:path => '../'`，用于克隆本仓库后的本地开发。
+
+### 固定源码版本
+
+需要固定代码时，可将分支声明替换为完整 commit。下面的提交已存在于远端，不受后续 `main` 更新影响：
+
+```ruby
+pod 'XYMPopWindow',
+    :git => 'https://github.com/MIKU-MIKU-39/XYMPopWindow.git',
+    :commit => '945a0d00712776085c7485c6404773f8d6d37ce8'
+```
+
+截至 2026-09-29，远端尚无版本 tag。podspec 中的 `0.1.0` 不代表 Git tag 已存在；目前不要直接使用 `:tag => '0.1.0'`。待维护者创建并推送对应 tag 后，可将 `:branch` 或 `:commit` 替换为 `:tag => '0.1.0'`。三者选择一种即可。
+
+### 更新到 main 的最新代码
+
+使用 `:branch => 'main'` 时，`Podfile.lock` 会记录实际安装的 commit。日常 `pod install` 会保留锁定版本；需要主动获取远端更新时执行：
+
+```sh
+pod update XYMPopWindow
+```
+
+使用 Bundler 时加 `bundle exec`。更新后检查并提交业务工程的 `Podfile` 和 `Podfile.lock`；不要为了更新一个组件直接运行不带名称的 `pod update`。使用固定 commit/tag 时，需先修改 Podfile 中的引用再安装，更新命令不会自动切换到另一个 commit/tag。
+
+参考：[CocoaPods Git 来源配置](https://guides.cocoapods.org/using/the-podfile.html)、[pod install 与 pod update 的区别](https://guides.cocoapods.org/using/pod-install-vs-update.html)。
+
 ## 运行示例
 
 首次准备 Ruby 依赖，然后安装 Pods：
@@ -200,8 +257,9 @@ xcodebuild test -workspace XYMPopWindowExample.xcworkspace \
 
 ## 发布状态
 
-目前仅完成本地项目整理，尚未创建 GitHub 仓库、推送代码、创建版本 tag 或发布 CocoaPods。
-podspec 中的 `https://github.com/MIKU-MIKU-39/XYMPopWindow` 是规划地址，并不表示仓库已经存在。真正发布前需确认仓库地址，创建与版本一致的 tag，并运行 pod lint 验证；当前请使用 `:path` 接入。
+GitHub 仓库已创建并推送，当前可通过 `:git` + `:branch => 'main'` 或固定 commit 接入；本地开发仍可使用 `:path`。截至 2026-09-29，远端尚无版本 tag。
+
+上传 GitHub 不等于发布到 CocoaPods Specs 索引。仅填写 `pod 'XYMPopWindow', '0.1.0'` 需要所用 Specs 源已收录该版本，本项目当前接入方式请使用上面的 Git 地址声明。后续正式发布时应完成 lint 验证、创建与版本一致的 tag，再按需发布到公共或私有 Specs 源。
 
 ## License
 

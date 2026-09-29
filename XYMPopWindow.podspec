@@ -1,7 +1,7 @@
 # Xuyiming: CocoaPods specification for the standalone popup component.
 Pod::Spec.new do |s|
   s.name = 'XYMPopWindow'
-  s.version = '0.1.0'
+  s.version = '1.0.0'
   s.summary = 'Objective-C bottom popups with nested transitions and WebKit content.'
   s.description = 'Reusable UIKit popup containers with Masonry layout, nested navigation, scroll coordination, and a WebKit popup.'
   # Planned repository address; this project has not been uploaded or tagged yet.
