@@ -31,7 +31,6 @@ XYMPopWindow/
 │   ├── XYMBasicPopWindowViewTests.m
 │   └── XYMDemoExamplesTests.m
 └── scripts/
-    ├── generate_example.rb             # 工程首次生成工具
     └── sync_example_files.rb           # 追加源码/资源引用，不重建工程
 ```
 
@@ -136,7 +135,7 @@ open XYMPopWindowExample.xcworkspace
 - `XYMDemoContent.xib` 是真实资源，`XYMDemoIndex.html` 与 `XYMDemoDetail.html` 通过 `loadFileURL:` 加载，不依赖网络。
 - 底部日志高度 40pt，显示最近记录，最多保留 50 行，可在日志内部滚动查看历史；弹窗内列表和网页仍保留各自的滚动能力。关闭按 `dismiss.start → dismiss.finished → dismiss.completion` 记录。手势或弹窗内部返回触发关闭时，没有外部方法的 completion 日志。
 
-工程文件已提供，正常使用无需运行生成脚本。脚本遇到已有工程会退出，以免覆盖手工修改。
+工程文件已提供，可直接使用。
 新增示例文件后，可在仓库根目录运行 `bundle exec ruby scripts/sync_example_files.rb`，幂等追加 `.m` 编译引用及 `.xib/.html` 资源引用，不覆盖现有工程配置。
 
 ## 本地接入其他工程
